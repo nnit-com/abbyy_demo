@@ -1,0 +1,27 @@
+# 忽略用户特定文件
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# 忽略编译结果
+[Dd]ebug/
+[Rr]elease/
+bin/
+obj/
+
+# 忽略日志文件
+*.log
+
+# 忽略Visual Studio缓存
+.vs/
+ipch/
+*.aps
+*.ncb
+
+# 忽略NuGet包目录
+packages/
+
+# 忽略其他临时文件
+*.tmp
+*.tmp_proj
