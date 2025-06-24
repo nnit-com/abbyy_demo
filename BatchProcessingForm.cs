@@ -1,4 +1,4 @@
-// © 2019 ABBYY Development Inc.
+// ï¿½ 2019 ABBYY Development Inc.
 // SAMPLES code is property of ABBYY, exclusive rights are reserved. 
 //
 // DEVELOPER is allowed to incorporate SAMPLES into his own APPLICATION and modify it under 
@@ -113,6 +113,7 @@ namespace BatchProcessing
             FREngine.FRPage page = batchProcessor.GetNextProcessedPage();
             int pageNum = 1;
             while( page != null ) {
+
                 // Synthesize page before export
                 page.Synthesize(null);
                 // Export page to file with the same name and pdf extension
@@ -120,6 +121,8 @@ namespace BatchProcessing
                 page.Export(resultFilePath, FREngine.FileExportFormatEnum.FEF_DOCX, null);
                 page = batchProcessor.GetNextProcessedPage();
                 pageNum++;
+
+                
             }
         }
 
