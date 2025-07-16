@@ -1,4 +1,4 @@
-// © 2019 ABBYY Development Inc.
+// ?2019 ABBYY Development Inc.
 // SAMPLES code is property of ABBYY, exclusive rights are reserved. 
 //
 // DEVELOPER is allowed to incorporate SAMPLES into his own APPLICATION and modify it under 
@@ -56,6 +56,10 @@ namespace BatchProcessing
             string extensionsMask = "bmp|dcx|pcx|png|jpg|jpeg|jp2|jpc|jfif|pdf|tif|tiff|gif|djvu|djv|jb2";
             // Get all files from source folder
             string[] fileNames = Directory.GetFiles(sourceDir, "*.*");
+            
+
+
+
             // Select files with appropriate extensions
             List<String> imagesNames = new List<string>();
             foreach (string fileName in fileNames)

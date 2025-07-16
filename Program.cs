@@ -1,4 +1,4 @@
-// © 2019 ABBYY Development Inc.
+// ?2019 ABBYY Development Inc.
 // SAMPLES code is property of ABBYY, exclusive rights are reserved. 
 //
 // DEVELOPER is allowed to incorporate SAMPLES into his own APPLICATION and modify it under 
